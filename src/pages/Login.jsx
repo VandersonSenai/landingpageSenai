@@ -1,12 +1,12 @@
 // import styles from "./Estilos.module.css";
-// Importação dos componentes do bootstrap
+// componentes do bootstrap
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Form from "react-bootstrap/Form";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Alert from "react-bootstrap/Alert";
 
-// Importação do Hook form pra validar e enviar o formulário
+// Hook form 
 import { useForm } from "react-hook-form";
 import { useEffect, useState } from "react";
 import { useVerificaLogin } from "../hooks/useApi";
@@ -65,7 +65,7 @@ const Login = () => {
           style={{ width: "22rem", margin: "auto", textAlign: "center" }}
           onSubmit={handleSubmit(onSubmit, onError)}
         >
-          {/* Caixinha de email */}
+          {/* email */}
           <FloatingLabel
             controlId="floatingInput"
             label="Email"
@@ -85,7 +85,7 @@ const Login = () => {
             ></Form.Control>
             {errors.email && <p className="error">{errors.email.message}</p>}
           </FloatingLabel>
-          {/* Caixinha de senha */}
+          {/* senha */}
           <FloatingLabel
             controlId="floatingInputPassword"
             label="Senha"
@@ -100,11 +100,14 @@ const Login = () => {
             ></Form.Control>
             {errors.senha && <p className="error">{errors.senha.message}</p>}
           </FloatingLabel>
-          {/* Botao para envio do formulario */}
-          <Button variant="primary" type="submit" className="mb-5" size="lg">
-            Login
-          </Button>
-          {/* Alerta caso haja erro */}
+          
+            <Button className="mb-5" type="submit"
+              size="md"
+              variant="outline-info">
+                Login
+            </Button>
+
+          {/* Alerta se houver erro */}
           <Alert
             variant="danger"
             className={alertClass}

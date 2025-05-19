@@ -2,7 +2,7 @@ import { createBrowserRouter }  from "react-router-dom";
 
 import App from "./App.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
-import Contato from "./pages/Contato.jsx";
+import ContatoSite from "./pages/ContatoSite.jsx";
 import Cursos from "./pages/Cursos.jsx";
 import Login from "./pages/Login.jsx";
 import Sobre from "./pages/Sobre.jsx";
@@ -21,10 +21,6 @@ const router = createBrowserRouter([
                 element:<Login />
             },
             {
-                path:"/#home",
-                element:<Home />
-            }, 
-            {
                 path:"/home",
                 element:<Home />
             },            
@@ -35,8 +31,8 @@ const router = createBrowserRouter([
                 path:"/#cursos",
                 element:<Home section="cursos"/>
             },                 {
-                path:"/contato",
-                element:<Contato />
+                path:"/contatosite",
+                element:<ContatoSite />
             },            
             {
                 path:"/sobre",

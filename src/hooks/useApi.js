@@ -64,3 +64,40 @@ export function useBuscarCursoId() {
   };
   return { BuscarCursoId };
 }
+
+export function useSalvarContato() {
+  const SalvarContato = async (data) => {
+    const req = await fetch(`${url}/usuarios`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    });
+    const res = await req.json();
+    console.log("Contato salvo:", res);
+    return res;
+  };
+  return { useSalvarContato };
+}
+
+export function useListarCursosNome() {
+  const [ListarCursosNome, setListarCursosNome] = useState([]);
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const req = await fetch(`${url}/cursos`);
+        const cursos = await req.json();
+        // Extrair apenas os campos id e nome
+        const cursosNomes = cursos.map(({ id, nome }) => ({ id, nome }));
+        setListarCursosNome(cursosNomes);
+        console.log("Cursos Nomes : ", cursosNomes);
+      } catch (erro) {
+        console.log(erro.message);
+      }
+    }
+    fetchData();
+  }, []);
+  return ListarCursosNome;
+}

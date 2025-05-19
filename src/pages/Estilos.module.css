@@ -5,9 +5,15 @@
     color: var(--clr-text);
   }
   p {
-    color: var(--clr-text);
+    color: var(--clr-text-secondary);
   }
   h1 {
+    color: var(--clr-text);
+  }
+  h2 {
+    color: var(--clr-text);
+  }
+  h3 {
     color: var(--clr-text);
   }
   h5 {
