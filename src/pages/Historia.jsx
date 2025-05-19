@@ -8,9 +8,20 @@ const Historia = () => {
   return (
     <div  className="p-3">
 
-      <iframe className='mb-1 pb-2 rounded-4' width="100%" height="622" src="https://www.youtube.com/embed/4BLj8S0dAS8?si=RT54eWwJdlC0vgtJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <Container >  
+      <Row>
+            <Col className="d-flex align-items-center  justify-content-center text-center ">
+                  <iframe className='mb-1 pb-2 rounded-4 col-md-12 w-100 h-100' src="https://www.youtube.com/embed/4BLj8S0dAS8?si=RT54eWwJdlC0vgtJ" title="SENAI: Há 77 anos mudando o Brasil
+                  " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            </Col>
+            <Col>
+                  <Image xs={12} md={8} className='mb-1 pb-2 rounded-4 col-md-11 order-md-1 w-100' src="/senai_historia.jpg"  rounded  />
+            </Col>
+
+      </Row>
+      </Container>  
       
-      <Image height="622" className='mb-1 pb-2 rounded-4' src="/senai_historia.jpg" fluid rounded />
 
       <Container >  
       <h3 className='mb-2 mt-4'>A História do SENAI</h3>
