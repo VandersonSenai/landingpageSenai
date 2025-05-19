@@ -7,7 +7,10 @@ import Col from 'react-bootstrap/Col';
 const Historia = () => {
   return (
     <div  className="p-3">
-      <Image className='mb-1 pb-2 rounded-4-4' src="/senai_historia.jpg" fluid rounded />
+
+      <iframe className='mb-1 pb-2 rounded-4' width="100%" height="622" src="https://www.youtube.com/embed/4BLj8S0dAS8?si=RT54eWwJdlC0vgtJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      
+      <Image height="622" className='mb-1 pb-2 rounded-4' src="/senai_historia.jpg" fluid rounded />
 
       <Container >  
       <h3 className='mb-2 mt-4'>A História do SENAI</h3>
