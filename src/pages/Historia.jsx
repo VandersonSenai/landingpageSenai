@@ -78,7 +78,7 @@ const Historia = () => {
       <Row className='py-3'>
             <Col xs={11} className="text-start col-md-10 order-md-2">
             <p className='m-0'>
-            O SENA! expande sua atuação para além da indústria extrativa e começa a oferecer soluções em diversos setores da indústria capixaba. Além da Grande Vitória e interior, o SENAI investe em unidades móveis como a frigorífica e a escola móvel de mecânica veicular. E posteriormente alcança todo o estado atendendo ás áreas industriais de: Alimentos e Bebidas, Automotiva, Automação, Construção Civil, Couro e Calçado, Gestão, Gráfica, Metalmecânica, Eletroeletrônica, Refrigeração e Climatização, Tecnologia da InformaçãMadeira e Mobiliário, Meio Ambiente, Minerais não-metálicos, Petróleo e Gás, Polímeros, Segurança no Trabalho e Têxtil e Vestuário.
+            O SENAI expande sua atuação para além da indústria extrativa e começa a oferecer soluções em diversos setores da indústria capixaba. Além da Grande Vitória e interior, o SENAI investe em unidades móveis como a frigorífica e a escola móvel de mecânica veicular. E posteriormente alcança todo o estado atendendo ás áreas industriais de: Alimentos e Bebidas, Automotiva, Automação, Construção Civil, Couro e Calçado, Gestão, Gráfica, Metalmecânica, Eletroeletrônica, Refrigeração e Climatização, Tecnologia da InformaçãMadeira e Mobiliário, Meio Ambiente, Minerais não-metálicos, Petróleo e Gás, Polímeros, Segurança no Trabalho e Têxtil e Vestuário.
              </p> 
             </Col>
             <Col xs={1} className="d-flex align-items-center  justify-content-center text-center col-md-2 order-md-1">
