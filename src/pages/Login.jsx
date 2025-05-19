@@ -8,7 +8,6 @@ import Alert from "react-bootstrap/Alert";
 
 // Importação do Hook form pra validar e enviar o formulário
 import { useForm } from "react-hook-form";
-import { BsBoxArrowInRight } from "react-icons/bs";
 import { useEffect, useState } from "react";
 import { useVerificaLogin } from "../hooks/useApi";
 import { useNavigate } from "react-router-dom";
