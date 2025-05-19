@@ -40,7 +40,7 @@ const Login = () => {
 
     if (respostaVerificacao == "Login efetuado com sucesso") {
       alert(respostaVerificacao);
-      navigate("/home/#home");
+      navigate("/home");
     } else {
       setAlertClass("mb-5 mt-2");
       setAlertMensagem(respostaVerificacao);
@@ -55,21 +55,15 @@ const Login = () => {
   const [alertMensagem, setAlertMensagem] = useState("");
 
   return (
-    <div>
-      <Container
-        style={{ height: "92vh" }}
-        className="justify-content-center align-content-center"
+    <div  className="p-3">
+      <Container 
+        style={{ height: "68vh" }}
+        // style={{ }}
+        className="justify-content-center align-content-center p-2 "
       >
-        <BsBoxArrowInRight
-          style={{
-            fontSize: "100px",
-            color: "green",
-            margin: "auto",
-            width: "10%",
-          }}
-        />
-        <Form
-          style={{ width: "75%", margin: "auto", textAlign: "center" }}
+        <h3 className="py-4">Entre com email e senha</h3>
+        <Form h-auto d-inline-block
+          style={{ width: "22rem", margin: "auto", textAlign: "center" }}
           onSubmit={handleSubmit(onSubmit, onError)}
         >
           {/* Caixinha de email */}

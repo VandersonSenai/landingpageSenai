@@ -6,22 +6,20 @@ import Col from 'react-bootstrap/Col';
 
 const Historia = () => {
   return (
-    <div  className="p-3">
-
+  <div  className="p-3">
       <Container >  
+      
       <Row>
-            <Col className="d-flex align-items-center  justify-content-center text-center ">
-                  <iframe className='mb-1 pb-2 rounded-4 col-md-12 w-100 h-100' src="https://www.youtube.com/embed/4BLj8S0dAS8?si=RT54eWwJdlC0vgtJ" title="SENAI: Há 77 anos mudando o Brasil
+            <Col className="d-flex align-items-center order-md-2">
+                  <iframe height="460px"  className='mb-1 pb-2 rounded-4 col-md-12 w-100 ' src="https://www.youtube.com/embed/4BLj8S0dAS8?si=RT54eWwJdlC0vgtJ" title="SENAI: Há 77 anos mudando o Brasil
                   " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             
             </Col>
-            <Col>
-                  <Image xs={12} md={8} className='mb-1 pb-2 rounded-4 col-md-11 order-md-1 w-100' src="/senai_historia.jpg"  rounded  />
-            </Col>
+
 
       </Row>
+
       </Container>  
-      
 
       <Container >  
       <h3 className='mb-2 mt-4'>A História do SENAI</h3>
@@ -78,7 +76,7 @@ const Historia = () => {
       <Row className='py-3'>
             <Col xs={11} className="text-start col-md-10 order-md-2">
             <p className='m-0'>
-            O SENAI expande sua atuação para além da indústria extrativa e começa a oferecer soluções em diversos setores da indústria capixaba. Além da Grande Vitória e interior, o SENAI investe em unidades móveis como a frigorífica e a escola móvel de mecânica veicular. E posteriormente alcança todo o estado atendendo ás áreas industriais de: Alimentos e Bebidas, Automotiva, Automação, Construção Civil, Couro e Calçado, Gestão, Gráfica, Metalmecânica, Eletroeletrônica, Refrigeração e Climatização, Tecnologia da InformaçãMadeira e Mobiliário, Meio Ambiente, Minerais não-metálicos, Petróleo e Gás, Polímeros, Segurança no Trabalho e Têxtil e Vestuário.
+            O SENA! expande sua atuação para além da indústria extrativa e começa a oferecer soluções em diversos setores da indústria capixaba. Além da Grande Vitória e interior, o SENAI investe em unidades móveis como a frigorífica e a escola móvel de mecânica veicular. E posteriormente alcança todo o estado atendendo ás áreas industriais de: Alimentos e Bebidas, Automotiva, Automação, Construção Civil, Couro e Calçado, Gestão, Gráfica, Metalmecânica, Eletroeletrônica, Refrigeração e Climatização, Tecnologia da InformaçãMadeira e Mobiliário, Meio Ambiente, Minerais não-metálicos, Petróleo e Gás, Polímeros, Segurança no Trabalho e Têxtil e Vestuário.
              </p> 
             </Col>
             <Col xs={1} className="d-flex align-items-center  justify-content-center text-center col-md-2 order-md-1">

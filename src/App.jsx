@@ -14,8 +14,8 @@ function App() {
       <AuthProvider>
       <div className="App ">
 
-            <NavBar  />
         <Container className="container-fluid py-0 px-0 ">
+            <NavBar  />
 
             <Outlet />
 

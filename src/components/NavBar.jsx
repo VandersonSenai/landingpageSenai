@@ -14,7 +14,7 @@ const NavBar = () => {
 
   return (
         // <Navbar expand="lg" className="bg-body-tertiary " bg="dark" data-bs-theme="dark">
-    <Navbar sticky="top" expand="lg" className={`container-fluid py-2 px-0 ${styles.navbar_custom}`}
+    <Navbar sticky="top" expand="lg" className={`container-fluid py-2 px-3 ${styles.navbar_custom}`}
         style={{ 
         display: 'flex', 
         alignItems: 'center'

@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-const Footer = () => <footer className="page-footer font-small pt-5">
+const Footer = () => <footer sticky="bottom" className="page-footer font-small pt-1 ">
     <div expand="lg" className={`container-fluid ${styles.footer}`}
 
     >
