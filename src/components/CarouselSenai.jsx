@@ -1,6 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
+import { Link } from "react-router-dom";
 
 function CarouselSenai() {
   return (
@@ -36,14 +37,15 @@ function CarouselSenai() {
               alt="Curos Senai"
             />
             </a>
-          </Carousel.Item>          <Carousel.Item>
-            <a href="http://localhost:5273/historia" target="_blank" rel="noopener noreferrer">
-            <img
-              className="d-block"
-              src="/carousel_imagem_03.JPG"
-              alt="Curos Senai"
-            />
-            </a>
+          </Carousel.Item>          
+          <Carousel.Item>
+            <Link to="/historia">
+              <img
+                className="d-block"
+                src="/carousel_imagem_03.JPG"
+                alt="Historia do Senai"
+              />
+            </Link>
           </Carousel.Item>
         </Carousel>
       </Col>

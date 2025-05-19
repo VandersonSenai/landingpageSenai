@@ -5,7 +5,7 @@
       "userName": "Vanderson",
       "email": "eu@gmail.com",
       "senha": "1"
-    }  
+    }
   ],
   "cursos": [
     {
@@ -48,7 +48,7 @@
       "imagemUrl_detalhe": "/curso_3333_detalhe.jpg"
     }
   ],
-    "contato": [
+  "contato": [
     {
       "id": "b1c0",
       "nome": "Eu Mesmo",

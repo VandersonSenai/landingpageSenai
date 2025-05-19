@@ -78,7 +78,7 @@ export function useSalvarContato() {
     console.log("Contato salvo:", res);
     return res;
   };
-  return { useSalvarContato };
+  return { SalvarContato };
 }
 
 export function useListarCursosNome() {

@@ -1,6 +1,6 @@
 import styles from "./Estilos.module.css";
 import React from 'react'
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -38,7 +38,7 @@ const ContatoSite = () => {
                   </p>
             </Col>    
             <Col xs={12} md={6} lg={4}>
-              <Contato/> 
+              <Contato page="contatolink"/> 
             </Col>    
          
         </Row>

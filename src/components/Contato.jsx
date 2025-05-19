@@ -23,37 +23,29 @@ import {
 } from "../hooks/useApi";
 
 const Contato = (props) => {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-    reset,
-    watch,
-  } = useForm();
-
   const { SalvarContato } = useSalvarContato()
   const { BuscarCursoId } = useBuscarCursoId()
   const { id } = useParams();
   const navigate = useNavigate();
 
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    // reset,
+    // watch,
+  } = useForm();
+
   const onSubmit = (data) => {
     console.log(data);
-    if (props.page === "contatolink") {
-      SalvarContato(data);
-      alert("Contato salvo com sucesso");
-      navigate("/home");
-    };
+    SalvarContato(data);
+    alert("Contato salvo com sucesso");
+    navigate("/home");
   }
+
   const onError = (errors) => {
     console.log(errors);
   };
-
-
-
-
-
-
-
   return (
     
     <Container fluid className="d-flex flex-column justify-content-center align-items-center p-0"
