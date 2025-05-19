@@ -21,8 +21,8 @@ function CarouselSenai() {
                   target="_blank" 
                   rel="noopener noreferrer">
               <img
-              className="d-block w-100"
-              src="/banner-Acelera-Senai_desktop.png"
+              className="d-block "
+              src="/carousel_imagem_01.png"
               alt="Acelera-Senai"
             />
             </a>
@@ -31,8 +31,16 @@ function CarouselSenai() {
           <Carousel.Item>
             <a href="https://loja.senaies.com.br/" target="_blank" rel="noopener noreferrer">
             <img
-              className="d-block w-100"
-              src="/cursossenai.png"
+              className="d-block "
+              src="/carousel_imagem_02.png"
+              alt="Curos Senai"
+            />
+            </a>
+          </Carousel.Item>          <Carousel.Item>
+            <a href="http://localhost:5273/historia" target="_blank" rel="noopener noreferrer">
+            <img
+              className="d-block"
+              src="/carousel_imagem_03.JPG"
               alt="Curos Senai"
             />
             </a>
