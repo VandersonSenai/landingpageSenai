@@ -1,0 +1,72 @@
+
+
+.App {
+  background-color: var(--clr-base-dark);
+  /* height: 100%; */
+}
+
+.error {
+  color: red;
+  font-size: 20px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+*{
+  margin: 0 ;
+  padding: 0 ;
+  color: var(--clr-text);
+  font-size: 1.1rem;
+  font-weight: 400; 
+  /* background-color: var(--clr-base-dark); */
+}
+
+#root {
+  background-color: var(--clr-base-dark);
+  max-width: 3840px;
+  /* max-width: 1920px; */
+  margin: 0px auto;
+  /* margin: 0 auto; */
+  /* padding: 1.0rem; */
+  /* padding-bottom: 0.5rem; */
+  text-align: center;
+}
+/* 
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */ 
+ 
+

@@ -1,0 +1,58 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "userName": "admin",
+      "email": "eu@gmail.com",
+      "senha": "1"
+    }  
+  ],
+  "cursos": [
+    {
+      "id": "1111",
+      "nome": "DESENVOLVIMENTO DE SISTEMAS",
+      "cidade": "Serra",
+      "duracao": "320 horas",
+      "turno": "Noturno",
+      "modalidade": "Presencial",
+      "valor": "R$ 3.198,96",
+      "objetivo": "Proporcionar o desenvolvimento das capacidades técnicas, sociais, metodológicas e organizativas referente à qualificação profissional em Mecânico de Máquinas Industriais.",
+      "prerequisito": "Idade mínima de 16 anos e Ensino Fundamental completo.",
+      "imagemUrl_card": "/curso_1111.jpg",
+      "imagemUrl_detalhe": "/curso_1111_detalhe.jpg"
+    },
+    {
+      "id": "2222",
+      "nome": "MECÂNICO DE MÁQUINAS INDUSTRIAIS",
+      "cidade": "Serra",
+      "duracao": "320 horas",
+      "turno": "Noturno",
+      "modalidade": "Presencial",
+      "valor": "R$ 2.198,96",
+      "objetivo": "Proporcionar o desenvolvimento das capacidades técnicas, sociais, metodológicas e organizativas referente à qualificação profissional em Mecânico de Máquinas Industriais.",
+      "prerequisito": "Idade mínima de 16 anos e Ensino Fundamental completo.",
+      "imagemUrl_card": "/curso_2222.jpg",
+      "imagemUrl_detalhe": "/curso_2222_detalhe.jpg"
+    },
+    {
+      "id": "3333",
+      "nome": "MECÂNICO DE MÁQUINAS",
+      "cidade": "Colatina",
+      "duracao": "40 horas",
+      "turno": "Manhã",
+      "modalidade": "Presencial",
+      "valor": "R$ 852,80",
+      "objetivo": "Iniciar o aluno nos conceitos e princípios básicos da pneumática industrial, considerando normas e requisitos técnicos de qualidade, saúde e segurança do trabalho e de meio ambiente.",
+      "prerequisito": "Idade mínima de 16 anos e Ensino Fundamental completo.",
+      "imagemUrl_card": "/curso_3333.jpg",
+      "imagemUrl_detalhe": "/curso_3333_detalhe.jpg"
+    }
+  ],
+    "contato": [
+    {
+      "id": "b1c0",
+      "nome": "Eu Mesmo",
+      "email": "contato@gmail.com"
+    }
+  ]
+}

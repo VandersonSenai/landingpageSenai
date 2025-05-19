@@ -1,0 +1,107 @@
+.navbar_custom {
+    background-color: var(--clr-base-dark);
+    -webkit-box-shadow  : 0 8px 2px -6px #999;
+    -moz-box-shadow     : 0 8px 2px -6px #999;
+    box-shadow          : 0 8px 2px -6px #999;
+    z-index:999;
+    margin: 0px;
+    padding: 0px;
+  
+   a {
+    color: var(--clr-text);
+
+    } 
+
+  p {
+    color: var(--clr-text);
+  }
+  h1 {
+    color: var(--clr-text);
+  }
+  .text{
+    color: var(--clr-text);
+    transition: 'all 0.5s ease';
+  }
+
+  .text:hover {
+    transition: 'all 0.5s ease';
+    color: var(--clr-laranja);
+    fill: var(--clr-laranja);
+  }
+
+  svg {
+    color: var(--clr-text);
+  }
+
+  .link {
+    text-decoration: none;
+    color: var(--clr-text);
+    margin: 0px 10px;
+    color: var(--clr-text );
+  } 
+  /* hover no texto do menu */
+  /* .link:hover{
+    color: var(--clr-laranja);
+    text-decoration: underline;
+  }
+   */
+  
+  /* .link:after{
+    color: var(--clr-laranja);
+    text-decoration: underline;
+  } */
+
+  /* .nav-link-active{
+    color: var(--clr-laranja);
+    text-decoration: underline;
+  } */
+
+
+  /* alterando cor no texto Visitante/Login */
+  .login {
+    color: var(--clr-text);
+    padding: 0.5em;
+  }
+  /* hover no texto Visitante/Login */
+  .login:hover {
+    color: var(--clr-laranja);
+    text-decoration: underline;
+
+  }
+  
+
+  .navbar_toggler {
+    border-color:   var(--clr-text);
+    fill:           var(--clr-text);
+    color:          var(--clr-text);
+    stroke:         rgba(235, 16, 16, 0.5);
+    color: white;
+    border-color: white;
+  } 
+
+}
+
+  .navbar_toggler {
+    border-color:   var(--clr-text);
+    fill:           var(--clr-text);
+    color:          var(--clr-text);
+    stroke:         rgba(206, 11, 11, 0.5);
+    color: white;
+    border-color: white;
+  } 
+
+  .navbar_toggler:hover {
+    background-color: var(--clr-laranja);
+    border-color: var(--clr-laranja);
+  }
+
+a {
+  color: var(--clr-text);
+  text-decoration: none;
+  transition: all 0.5s ease;}
+a:hover{
+  color: var(--clr-laranja) !important;
+  text-decoration: underline !important;
+  transition: 'all 0.5s ease';
+  /* border-bottom: 2px solid var(--clr-laranja); */
+}  

@@ -1,0 +1,12 @@
+.footer{
+
+  svg:hover  {
+    transform: scale(1.3); 
+    transition: 0.4s ease;
+    fill: var(--clr-laranja); 
+  }
+
+  margin: 0px;
+  padding: 0px;
+  
+}
