@@ -20,10 +20,10 @@ const NavBar = () => {
         alignItems: 'center'
     }}
       > 
-{/* adicionando thema dark */}
+
       <Container className="mt-0 p-0 py-0" >
         <Navbar.Brand as={NavLink} to="/home">
-{/* adicionando icones aos menus             */}
+        {/* adicionando icones aos menus             */}
         <img
               alt="SenaiLogo"
               src="/SenaiLogoBranco.png"
@@ -35,7 +35,7 @@ const NavBar = () => {
         </Navbar.Brand>
         <Navbar.Toggle className={styles.text} aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto bg" >
+          <Nav className="me-auto bg text-end" >
             <Nav.Link as={NavLink} className={styles} 
             style={({ isActive }) => {
               return { color: isActive ?

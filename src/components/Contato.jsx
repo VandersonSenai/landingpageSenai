@@ -103,7 +103,7 @@ const Contato = (props) => {
                             <FloatingLabel
                               controlId="floatingInputPassword"
                               label="Senha"
-                              className="mb-5"
+                              className="mb-3"
                             >
                               <Form.Control
                                 type="password"

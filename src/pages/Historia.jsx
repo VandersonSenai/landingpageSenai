@@ -12,7 +12,7 @@ const Historia = () => {
       <Row>
             <Col className="d-flex align-items-center order-md-2">
                   <iframe height="460px"  className='mb-1 pb-2 rounded-4 col-md-12 w-100 ' src="https://www.youtube.com/embed/4BLj8S0dAS8?si=RT54eWwJdlC0vgtJ" title="SENAI: Há 77 anos mudando o Brasil
-                  " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  "  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  ></iframe>
             
             </Col>
 

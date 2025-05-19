@@ -5,6 +5,12 @@
       "userName": "Vanderson",
       "email": "eu@gmail.com",
       "senha": "1"
+    },
+    {
+      "id": "acf7",
+      "nome": "VANDERSON DA SILVA",
+      "email": "vanderson.silva13@aluno.senai.br",
+      "senha": "1"
     }
   ],
   "cursos": [
