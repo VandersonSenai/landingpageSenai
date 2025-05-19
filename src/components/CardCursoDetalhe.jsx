@@ -65,7 +65,7 @@ const CardCursoDetalhe = ()  => {
       </p>
       <p className='py-1 m-0 p-3'>
         <strong className=''>
-          Pre-requisito :
+          Pré-requisito :
         </strong ><span className='px-2'>{curso.prerequisito}</span>
       </p>
       <br/>
