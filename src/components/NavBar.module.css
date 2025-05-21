@@ -18,6 +18,7 @@
   h1 {
     color: var(--clr-text);
   }
+
   .text{
     color: var(--clr-text);
     transition: 'all 0.5s ease';
@@ -26,7 +27,7 @@
   .text:hover {
     transition: 'all 0.5s ease';
     color: var(--clr-laranja);
-    fill: var(--clr-laranja);
+    
   }
 
   svg {
@@ -34,7 +35,7 @@
   }
 
   .link {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: var(--clr-text);
     margin: 0px 10px;
     color: var(--clr-text );

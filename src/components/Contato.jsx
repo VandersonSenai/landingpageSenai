@@ -8,11 +8,8 @@ import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
 
 import { useForm } from "react-hook-form";
-import { useEffect, useState } from "react";
-import { useVerificaLogin } from "../hooks/useApi";
-import { useNavigate,useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-import { useContext } from "react";
 import { AuthContext } from "../contexts/UserContext";
 
 
@@ -25,7 +22,6 @@ import {
 const Contato = (props) => {
   const { SalvarContato } = useSalvarContato()
   const { BuscarCursoId } = useBuscarCursoId()
-  const { id } = useParams();
   const navigate = useNavigate();
 
   const {
@@ -120,20 +116,6 @@ const Contato = (props) => {
                                 variant="outline-success">
                                   {props.page === "contatosite" ? "salvacontato" : "Salvar"}
                               </Button>
-                  
-                            {/* Alerta se houver erro */}
-                            {/* <Alert
-                              variant="danger"
-                              className={alertClass}
-                              style={{
-                                position: "absolute",
-                                width: "30%",
-                                left: "35%",
-                                top: "90%",
-                              }}
-                            >
-                              {alertMensagem}
-                            </Alert> */}
                           </Form>
                         
                       </div>
