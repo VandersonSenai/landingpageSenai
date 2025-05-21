@@ -65,7 +65,7 @@ const Contato = (props) => {
           <Form.Control
             type="text"
             placeholder="Digite o nome do produto"
-            {...register("nome", {
+            {...register("userName", {
               required: "O nome é obrigatório",
               minLength: {
                 value: 1,

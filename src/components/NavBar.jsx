@@ -73,8 +73,7 @@ const NavBar = () => {
                   <span>Olá, </span>
                   <Link  as={NavLink} 
                           to="/login" 
-                          className={styles.login}>Visitante
-                  </Link>
+                          className={styles.login}>Visitante</Link>
                 </>
                 ) : (
                 <>

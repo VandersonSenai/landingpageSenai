@@ -1,0 +1,28 @@
+Card.Text{
+
+
+}
+svg {
+  fill:var (--clr-laranja);
+}
+
+Card {
+  width: 18rem;
+  padding:0.1rem;
+  marginBottom:20px;
+  marginTop:20px;
+  borderRadius:10px;
+  bordercolor:var(-clr-laranja);
+  backgroundColor:var(-clr-laranja);
+}
+/* 
+  --clr-base: rgb(31, 41, 172);
+  --clr-base-dark: rgb(16, 31, 98);
+  --clr-base-light: rgb(70, 190, 214);
+  --clr-laranja: rgb(252, 87, 7);
+  --clr-amarelo: rgb(242, 171, 19);
+  --clr-roxo: rgb(81, 25, 158);
+  --clr-text: rgb(230, 230, 239);
+  --clr-text-secondary: rgb(176, 179, 193);
+  --clr-bg: rgb(166, 167, 172);
+   */
