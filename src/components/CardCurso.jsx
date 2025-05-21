@@ -2,13 +2,13 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { NavLink } from 'react-router-dom';
 import ListGroup from 'react-bootstrap/ListGroup';
-
+import styles from "./CardCurso.module.css";
 
 const CardCurso = (props) => {
   return (
     
 
-          <Card bg="info" border="info" style={{ width: "22rem", padding:"0.1rem", marginBottom:"20px", marginTop:"20px", borderRadius:"10px" }} className="text-center">
+          <Card bg="info" border="info" style={{ width: "22rem", padding:"0.1rem", marginBottom:"20px", marginTop:"20px", borderRadius:"10px" }} className="text-center"> 
         <Card.Img
           variant="top"
           src={
