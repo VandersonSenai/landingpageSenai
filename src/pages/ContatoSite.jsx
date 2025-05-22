@@ -45,7 +45,7 @@ const ContatoSite = () => {
           <div className='py-1 m-0 p-3 justify-content-start'>
             <Button className="" 
                 variant="outline-info" 
-                size="sm"
+                size="lg"
                 onClick={voltarPaginaAnterior}>
                    Voltar 
             </Button>

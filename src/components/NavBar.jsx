@@ -21,7 +21,7 @@ const NavBar = () => {
     }}
       > 
 
-      <Container className="mt-0 p-0 py-0" >
+      <Container fluid className="mt-0 p-0 py-0" >
         <Navbar.Brand as={NavLink} to="/home">
         {/* adicionando icones aos menus             */}
         <img
@@ -67,7 +67,7 @@ const NavBar = () => {
                      'var(--clr-text)',
                     transition: 'all 0.2s ease',
                     textDecoration: isActive ? 'underline' : 'none',
-                    fontWeight: isActive ? 'bold' : 'normal',
+                    fontWeight: isActive ? '' : 'normal',
                     }
               }}
             to="/sobre">

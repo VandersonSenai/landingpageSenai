@@ -86,7 +86,7 @@ const CardCursoDetalhe = ()  => {
         </strong ><span className='px-2'>{curso.prerequisito}</span>
       </p>
       <br/>
-      <div className='py-1 m-0 p-3'>
+      <div className='py-2 mb-3 p-3'>
         <Button className=" " 
                 variant="outline-info" 
                 size="sm"

@@ -2,10 +2,14 @@ import Carousel from 'react-bootstrap/Carousel';
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
 import { Link } from "react-router-dom";
+import Container from 'react-bootstrap/Container';
 
 function CarouselSenai() {
   return (
 
+    <Container>
+
+    
     <Row>
       <Col xs={12} md={12} className="text-center">
 
@@ -49,6 +53,7 @@ function CarouselSenai() {
         </Carousel>
       </Col>
     </Row>
+    </Container>
   );
 }
 

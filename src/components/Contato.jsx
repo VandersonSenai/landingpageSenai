@@ -112,7 +112,7 @@ const Contato = (props) => {
                             </FloatingLabel>
                             
                               <Button className="mb-2" type="submit"
-                                size="md"
+                                size="lg"
                                 variant="outline-success">
                                   {props.page === "contatosite" ? "salvacontato" : "Salvar"}
                               </Button>

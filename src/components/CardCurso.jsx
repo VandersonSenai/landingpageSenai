@@ -10,23 +10,33 @@ const CardCurso = (props) => {
           <Card bg="info" 
           border="light" 
           style={{  width: "21rem", 
-                    padding:"0.1rem", 
+                    padding:"0.05rem", 
                     marginBottom:"20px", 
                     marginTop:"20px", 
-                    borderRadius:"6px",
+                    borderRadius:"10px 10px 10px 10px",
+                    boxShadow: "0.1rem 0.1rem 1.09rem 0.01rem rgb(4, 10, 37)"
                   }} 
                     className="text-center"> 
         <Card.Img
           variant="top"
+          height="200px"
+          style={{  
+           borderRadius:"10px 10px 0px 0px",
+           borderBlockEnd: "0.1rem solid var(--clr-bg)",
+              }}
           src={
             props.imagemUrl_card != "null"
               ? props.imagemUrl_card
               : "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg"
           }
-          height="200px"
         />
-        <Card.Body className="d-flex flex-column justify-content-between"
-        style={{backgroundColor: "var(--clr-base-dark)"}}
+        <Card.Body 
+           style={{  
+            backgroundColor: "var(--clr-base-dark)",
+            borderRadius:"0px 0px 10px 10px",
+              }}
+         
+        className="d-flex flex-column justify-content-between"
         >
         {/* <Card.Body style={{backgroundColor: "var(--clr-text)"}}> */}
           <Card.Title style={{ color: "var(--clr-text)" }}>{props.nome}</Card.Title>
