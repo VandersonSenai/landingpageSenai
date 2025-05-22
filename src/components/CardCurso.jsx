@@ -53,7 +53,7 @@ const CardCurso = (props) => {
           <Card.Link  as={NavLink} to={`/detalhecurso/${props.id}`}>
           {/* <Card.Link href={`/detalhecurso/${props.id}`}> */}
             <Button className="" 
-                    size="sm"
+                    size="lg"
                     variant="outline-info">
                       Saiba mais...
                       </Button>
