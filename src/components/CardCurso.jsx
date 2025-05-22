@@ -14,7 +14,7 @@ const CardCurso = (props) => {
                     marginBottom:"20px", 
                     marginTop:"20px", 
                     borderRadius:"10px 10px 10px 10px",
-                    boxShadow: "0.1rem 0.1rem 1.09rem 0.01rem rgb(4, 10, 37)"
+                    boxShadow: "0.1rem 0.1rem 0.8rem 0.01rem rgb(4, 10, 37)"
                   }} 
                     className="text-center"> 
         <Card.Img
