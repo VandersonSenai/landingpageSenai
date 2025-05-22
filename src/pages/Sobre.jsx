@@ -47,9 +47,6 @@ const Sobre = () => {
             
           
         </Row>
-      <h2 className='{styles.titulo} py-5'>
-        
-        </h2>
 
       </Container>
       

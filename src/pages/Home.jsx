@@ -6,6 +6,7 @@ import { Navigate } from "react-router-dom";
 import CardCurso from "../components/CardCurso";
 import CarouselSenai from "../components/CarouselSenai";
 import Footer from "../components/Footer";
+import Container from "react-bootstrap/Container";
 
 const Home = () => {
   // const { usuarioNome } = useContext(AuthContext)
@@ -14,7 +15,9 @@ const Home = () => {
 
   return (
   <div className={styles.divPagina}>
+    <Container>
 
+    
       <section id="home" >
       <p className="text-center "></p>
         <CarouselSenai/>
@@ -37,7 +40,7 @@ const Home = () => {
           ))}
           </div>
         </section>
-        
+    </Container>
   </div>
   )
 }

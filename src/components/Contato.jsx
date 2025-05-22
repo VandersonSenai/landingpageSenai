@@ -48,7 +48,7 @@ const Contato = (props) => {
       // style={{ height: "68vh" }}
       >
         <div  className="">
-          <h4 >Entre com email e senha</h4>
+          <h4 >Entre com suas informações</h4>
           <Form 
             style={{ width: "20rem", textAlign: "center" }}
             onSubmit={handleSubmit(onSubmit, onError)}

@@ -1,4 +1,4 @@
-// import styles from "./Estilos.module.css";
+import styles from "./Estilos.module.css";
 // componentes do bootstrap
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Form from "react-bootstrap/Form";
@@ -54,14 +54,15 @@ const Login = () => {
   const [alertMensagem, setAlertMensagem] = useState("");
 
   return (
-    <div  className="p-3" style={{ height: "78vh" }}>
-      <Container 
+    
+    <div  className={`p-2 px-2 ${styles.divPagina}`}>
+      <Container fluid
         // style={{ height: "68vh" }}
         // style={{ }}
-        className="justify-content-center align-content-center p-2 "
+        className="justify-content-center align-content-center p-0 "
       >
-        <h3 className="py-4">Entre com email e senha</h3>
-        <Form h-auto d-inline-block
+        <h4 className="py-4">Entre com email e senha</h4>
+        <Form d-inline-block
           style={{ width: "22rem", margin: "auto", textAlign: "center" }}
           onSubmit={handleSubmit(onSubmit, onError)}
         >
@@ -101,13 +102,13 @@ const Login = () => {
             {errors.senha && <p className="error">{errors.senha.message}</p>}
           </FloatingLabel>
           
-            <Button className="mb-5" type="submit"
+            <Button className="mb-0" type="submit"
               size="md"
               variant="outline-info">
                 Login
             </Button>
 
-          {/* Alerta se houver erro */}
+          {/* se houver erro */}
           <Alert
             variant="danger"
             className={alertClass}
@@ -117,8 +118,7 @@ const Login = () => {
               left: "35%",
               top: "90%",
             }}
-          >
-            {alertMensagem}
+          >{alertMensagem}
           </Alert>
         </Form>
       </Container>
