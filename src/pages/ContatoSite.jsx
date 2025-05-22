@@ -26,7 +26,7 @@ const ContatoSite = () => {
                   </h2>
                   <hr />
                   <p className="text-start">
-                    Após o cadastro, podera realizar o login com suas próprias informações.
+                    Após o cadastro, poderá realizar o login com suas próprias informações.
                   </p>
                   <h4 className="text-start">
                     Duvidas entre em contato.

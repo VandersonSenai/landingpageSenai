@@ -44,7 +44,7 @@ const Contato = (props) => {
   };
   return (
     
-    <Container fluid className="d-flex flex-column justify-content-center align-items-center p-0"
+    <Container fluid className="d-flex flex-column justify-content-center align-items-center p-0 m-2"
       // style={{ height: "68vh" }}
       >
         <div  className="">
@@ -56,7 +56,7 @@ const Contato = (props) => {
           <FloatingLabel
               controlId="floatingInputNome"
               label="Nome"
-              className="mb-2"
+              className="mb-3"
             >
           <Form.Control
             type="text"
@@ -79,7 +79,7 @@ const Contato = (props) => {
                             <FloatingLabel
                               controlId="floatingInput"
                               label="Email"
-                              className="mb-2"
+                              className="mb-3"
                             >
                               <Form.Control
                                 type="email"
@@ -99,7 +99,7 @@ const Contato = (props) => {
                             <FloatingLabel
                               controlId="floatingInputPassword"
                               label="Senha"
-                              className="mb-3"
+                              className="mb-4"
                             >
                               <Form.Control
                                 type="password"

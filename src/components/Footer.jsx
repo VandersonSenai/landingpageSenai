@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { NavLink } from 'react-router-dom';
+import Navbar from 'react-bootstrap/Navbar';
 
 const Footer = () => <footer sticky="bottom" className="page-footer font-small pt-1 ">
     <div expand="lg" className={`container-fluid ${styles.footer}`}
@@ -11,14 +13,17 @@ const Footer = () => <footer sticky="bottom" className="page-footer font-small p
     >
         <Container className="container-fluid text-left text-md-left py-2">
             <Row >
+                      
               <Col  className="text-start " xs={12} md={12}>
-                <a href="/home">
-                    <img 
-                    alt="logosenai_2024.png"
-                    src="/logo_senai_2024.png"
-                    width="140"
-                    />
-                </a>
+                <Navbar.Brand className="text-start" as={NavLink} to="/home">
+                
+                <img
+                      alt="Logo Senai 2024"
+                      src="/logo_senai_2024.png"
+                      width="140"
+                      className="d-inline-block align-top"
+                      />
+                </Navbar.Brand>
 
               </Col>
             </Row>

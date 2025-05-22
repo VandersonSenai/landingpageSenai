@@ -88,7 +88,7 @@ const CardCursoDetalhe = ()  => {
       <div className='py-2 mb-3 p-3'>
         <Button className=" " 
                 variant="outline-info" 
-                size="sm"
+                size="lg"
                 onClick={voltarPaginaAnterior}>
                    Voltar 
         </Button>
