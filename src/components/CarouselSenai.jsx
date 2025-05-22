@@ -13,7 +13,7 @@ function CarouselSenai() {
     <Row>
       <Col xs={12} md={12} className="text-center">
 
-        <Carousel fade style={{ width: "100%"}} 
+        <Carousel style={{ width: "100%"}} 
                   data-bs-theme="dark" 
                   fade={true} 
                   interval={2000} 

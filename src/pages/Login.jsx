@@ -62,7 +62,7 @@ const Login = () => {
         className="justify-content-center align-content-center p-0 "
       >
         <h4 className="py-4">Entre com email e senha</h4>
-        <Form d-inline-block
+        <Form 
           style={{ width: "22rem", margin: "auto", textAlign: "center" }}
           onSubmit={handleSubmit(onSubmit, onError)}
         >
