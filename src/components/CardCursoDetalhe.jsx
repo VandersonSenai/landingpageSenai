@@ -15,8 +15,7 @@ const CardCursoDetalhe = ()  => {
   const voltarPaginaAnterior = () => {
     navigate(-1); 
   };
-  // const linkImagem                = "/No_Image_Available.jpg";
-      // "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg";
+
   useEffect(() => {
       async function fetchCurso() {
         try {

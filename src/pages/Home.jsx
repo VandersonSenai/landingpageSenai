@@ -28,6 +28,8 @@ const Home = () => {
               id={cursos.id}
               nome={cursos.nome}
               cidade={cursos.cidade}
+              duracao={cursos.duracao}
+              turno={cursos.turno}
               modalidade={cursos.modalidade}
               imagemUrl_card={cursos.imagemUrl_card}
               valor={cursos.valor}

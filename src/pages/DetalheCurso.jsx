@@ -9,7 +9,9 @@ const DetalheCurso = () => {
     
     
     <div className={styles.divPagina}> 
+    <Container>
      <CardCursoDetalhe/>
+    </Container>
    </div>
   )
 }
